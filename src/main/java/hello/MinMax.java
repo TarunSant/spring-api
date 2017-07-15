@@ -2,13 +2,13 @@ package hello;
 
 public class MinMax {
 
-	int findMin(int x, int y) {
+	public int findMin(int x, int y) {
 		int min = 0;
 		min = (x < y)?x:y;
 		return min;
 	}
 	
-	int findMax(int x, int y) {
+	public int findMax(int x, int y) {
 		int max = 0;
 		max = (x >= y)?x:y;
 		return max;
