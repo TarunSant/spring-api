@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MinMaxTest {
 
 	@Test
-	void TestFindMax() {
+	public void TestFindMax() {
 		int min = 10;
 		int max = 20;
 		MinMax minMax = new MinMax();
@@ -16,7 +16,7 @@ public class MinMaxTest {
 	}	
 	
 	@Test
-	void TestFindMin() {
+	public void TestFindMin() {
 		int min = 10;
 		int max = 20;
 		MinMax minMax = new MinMax();
